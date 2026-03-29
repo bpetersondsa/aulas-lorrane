@@ -1,4 +1,6 @@
-public class Ex2 {
+package ex02;
+
+public class Main {
     public static void main(String[] args) {
 
         double nota = 7;

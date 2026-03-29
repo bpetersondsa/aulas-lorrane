@@ -1,4 +1,6 @@
-public class Ex5 {
+package ex05;
+
+public class Main {
     public static void main(String[] args) {
 
         int numero = 3;
