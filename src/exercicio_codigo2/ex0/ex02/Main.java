@@ -7,10 +7,10 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         int senha = 1234;
-        int tentativa = 0;
+        int tentativas = 0;
         int login;
 
-        while (tentativa < 3) {
+        while (tentativas < 3) {
             login = input.nextInt();
 
             if (login == senha) {
@@ -18,7 +18,7 @@ public class Main {
                 input.close();
                 return;
             }
-            tentativa++;
+            tentativas++;
         }
         System.out.println("Acesso Bloqueado!");
         input.close();
