@@ -1,4 +1,4 @@
-package ex02;
+package exercicio_codigo1.ex02;
 
 public class Main {
     public static void main(String[] args) {
