@@ -17,22 +17,22 @@ public class Main {
         switch (operacao) {
             case '+':
                 resultado = numero1 + numero2;
-                System.out.println("A soma deu: " + resultado);
+                System.out.println("Resultado:  " + resultado);
                 break;
             case '-':
                 resultado = numero1 - numero2;
-                System.out.println("A subtracao deu: " + resultado);
+                System.out.println("Resultado:  " + resultado);
                 break;
             case '*':
                 resultado = numero1 * numero2;
-                System.out.println("A multiplicacao deu: " + resultado);
+                System.out.println("Resultado:  " + resultado);
                 break;
             case '/':
                 if (numero2 == 0) {
                     System.out.println("Erro");
                 } else {
                     resultado = (double) numero1 / numero2;
-                    System.out.println(" A divisao deu: " + resultado);
+                    System.out.println("Resultado:  " + resultado);
                 }
                 break;
             default:
